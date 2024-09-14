@@ -1,0 +1,89 @@
+*{
+    margin : 0px;
+    padding : 0px
+    
+}
+body{
+    background-color: #6A9C89;
+}
+
+.heading{
+    margin-top: 270px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 30px;
+    height: 306px;
+    width: 306px;
+
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  margin-left: 40%;
+ 
+}
+
+
+
+.game{
+    height: 306px;
+    width: 306px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap:3px;
+
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    font-size: 50px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    color:#F19ED2;
+}
+#reset{
+    margin-left: 45%;
+    margin-top: 50px;
+    height: 60px;
+    width: 150px;
+    background-color:#FF885B;
+   font-size: 25px;
+    border-radius: 13%;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+#new-btn{
+    
+    margin-left: 45%;
+    margin-top: 100px;
+    height: 60px;
+    width: 150px;
+    background-color:#FF885B;
+   font-size: 25px;
+    border-radius: 13%;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+#msg{
+    margin-top: 40px;
+    text-align: center;
+    color: #d60389;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.msg-container{
+
+    margin-top: 245px;
+}
+.hide{
+    display: none;
+}
